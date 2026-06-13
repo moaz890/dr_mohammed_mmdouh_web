@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "title": "Clinic Booking System",
+    "description": "Book your clinic appointment quickly and securely"
+  },
+  "nav": {
+    "home": "Home",
+    "book": "Book Appointment",
+    "admin": "Admin"
+  },
+  "booking": {
+    "title": "Book an Appointment",
+    "subtitle": "Fill in your details and choose a convenient time",
+    "fields": {
+      "name": "Full Name",
+      "phone": "Phone Number",
+      "email": "Email Address (optional)",
+      "date": "Appointment Date",
+      "time": "Appointment Time",
+      "notes": "Notes (optional)"
+    },
+    "placeholders": {
+      "name": "Enter your full name",
+      "phone": "e.g. 05XXXXXXXX",
+      "email": "example@email.com",
+      "notes": "Any additional information..."
+    },
+    "submit": "Proceed to Payment",
+    "success": "Booking Confirmed!",
+    "successMessage": "Your appointment has been confirmed. We will contact you shortly.",
+    "failure": "Payment Failed",
+    "failureMessage": "Your payment was not completed. Please try again.",
+    "tryAgain": "Try Again"
+  },
+  "errors": {
+    "required": "This field is required",
+    "invalidEmail": "Invalid email address",
+    "invalidPhone": "Invalid phone number"
+  },
+  "admin": {
+    "login": "Admin Login",
+    "email": "Email",
+    "password": "Password",
+    "loginButton": "Login",
+    "dashboard": "Dashboard",
+    "bookings": "Bookings",
+    "columns": {
+      "patient": "Patient Name",
+      "phone": "Phone",
+      "date": "Date",
+      "time": "Time",
+      "paymentStatus": "Payment",
+      "bookingStatus": "Status"
+    },
+    "status": {
+      "pending": "Pending",
+      "confirmed": "Confirmed",
+      "cancelled": "Cancelled",
+      "paid": "Paid",
+      "failed": "Failed"
+    }
+  }
+}
