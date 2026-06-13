@@ -76,3 +76,27 @@ export const updateBooking = (
     method: 'PATCH',
     body: JSON.stringify(payload),
   });
+
+// ── Patient-facing ────────────────────────────────────────────────────────────
+export interface CreateBookingPayload {
+  patientName: string;
+  phone: string;
+  email?: string;
+  appointmentDate: string;
+  appointmentTime: string;
+  notes?: string;
+  amount: number;
+}
+
+export const createBooking = (payload: CreateBookingPayload) =>
+  apiFetch<{ success: boolean; data: Booking }>('/api/bookings', {
+    method: 'POST',
+    body: JSON.stringify(payload),
+  });
+
+export const createPaymentSession = (bookingId: string) =>
+  apiFetch<{ success: boolean; data: { checkoutUrl: string; sessionId: string } }>(
+    '/api/payments/create-session',
+    { method: 'POST', body: JSON.stringify({ bookingId }) }
+  );
+
