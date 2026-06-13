@@ -6,7 +6,8 @@
   "nav": {
     "home": "الرئيسية",
     "book": "احجز موعداً",
-    "admin": "الإدارة"
+    "admin": "الإدارة",
+    "language": "English"
   },
   "booking": {
     "title": "احجز موعداً",
@@ -21,7 +22,7 @@
     },
     "placeholders": {
       "name": "أدخل اسمك الكامل",
-      "phone": "مثال: 05XXXXXXXX",
+      "phone": "مثال: 01XXXXXXXXX",
       "email": "example@email.com",
       "notes": "أي معلومات إضافية..."
     },
@@ -39,18 +40,38 @@
   },
   "admin": {
     "login": "تسجيل دخول الإدارة",
+    "loginSubtitle": "أدخل بياناتك للوصول إلى لوحة التحكم",
     "email": "البريد الإلكتروني",
     "password": "كلمة المرور",
     "loginButton": "تسجيل الدخول",
+    "loggingIn": "جارٍ تسجيل الدخول...",
+    "logout": "تسجيل الخروج",
     "dashboard": "لوحة التحكم",
     "bookings": "الحجوزات",
+    "allBookings": "جميع الحجوزات",
+    "totalBookings": "إجمالي الحجوزات",
+    "search": "ابحث بالاسم أو الهاتف...",
+    "filterPayment": "حالة الدفع",
+    "filterBooking": "حالة الحجز",
+    "allStatuses": "جميع الحالات",
+    "updateStatus": "تحديث الحالة",
+    "updating": "جارٍ التحديث...",
+    "viewDetails": "عرض التفاصيل",
+    "bookingDetails": "تفاصيل الحجز",
+    "back": "العودة إلى لوحة التحكم",
+    "notes": "ملاحظات",
+    "amount": "المبلغ",
+    "transactionId": "رقم المعاملة",
+    "createdAt": "تاريخ الإنشاء",
+    "noBookings": "لا توجد حجوزات",
     "columns": {
       "patient": "اسم المريض",
       "phone": "الهاتف",
       "date": "التاريخ",
       "time": "الوقت",
       "paymentStatus": "الدفع",
-      "bookingStatus": "الحالة"
+      "bookingStatus": "الحالة",
+      "actions": "الإجراءات"
     },
     "status": {
       "pending": "قيد الانتظار",

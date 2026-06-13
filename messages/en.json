@@ -6,7 +6,8 @@
   "nav": {
     "home": "Home",
     "book": "Book Appointment",
-    "admin": "Admin"
+    "admin": "Admin",
+    "language": "العربية"
   },
   "booking": {
     "title": "Book an Appointment",
@@ -21,7 +22,7 @@
     },
     "placeholders": {
       "name": "Enter your full name",
-      "phone": "e.g. 05XXXXXXXX",
+      "phone": "e.g. 01XXXXXXXXX",
       "email": "example@email.com",
       "notes": "Any additional information..."
     },
@@ -39,18 +40,38 @@
   },
   "admin": {
     "login": "Admin Login",
+    "loginSubtitle": "Enter your credentials to access the dashboard",
     "email": "Email",
     "password": "Password",
     "loginButton": "Login",
+    "loggingIn": "Logging in...",
+    "logout": "Logout",
     "dashboard": "Dashboard",
     "bookings": "Bookings",
+    "allBookings": "All Bookings",
+    "totalBookings": "Total Bookings",
+    "search": "Search by name or phone...",
+    "filterPayment": "Payment Status",
+    "filterBooking": "Booking Status",
+    "allStatuses": "All Statuses",
+    "updateStatus": "Update Status",
+    "updating": "Updating...",
+    "viewDetails": "View Details",
+    "bookingDetails": "Booking Details",
+    "back": "Back to Dashboard",
+    "notes": "Notes",
+    "amount": "Amount",
+    "transactionId": "Transaction ID",
+    "createdAt": "Created At",
+    "noBookings": "No bookings found",
     "columns": {
       "patient": "Patient Name",
       "phone": "Phone",
       "date": "Date",
       "time": "Time",
       "paymentStatus": "Payment",
-      "bookingStatus": "Status"
+      "bookingStatus": "Status",
+      "actions": "Actions"
     },
     "status": {
       "pending": "Pending",
