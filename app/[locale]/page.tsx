@@ -1,12 +1,11 @@
-import { useTranslations } from 'next-intl';
-import { getLocale } from 'next-intl/server';
+import { getTranslations, getLocale } from 'next-intl/server';
 import Link from 'next/link';
 import { CalendarCheck, Shield, Clock, Phone } from 'lucide-react';
 import { LanguageSwitch } from '@/components/LanguageSwitch';
 
 export default async function HomePage() {
-  const t = useTranslations('booking');
-  const nav = useTranslations('nav');
+  const t = await getTranslations('booking');
+  const nav = await getTranslations('nav');
   const locale = await getLocale();
 
   const features = [
